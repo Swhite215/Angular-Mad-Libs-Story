@@ -1,0 +1,29 @@
+
+<div class="inputContainer">
+  <form class="" action="input.html" method="post">
+    <h2 id="formTitle">A Vi Mad Libs Story</h2>
+    <p>To begin, fill out the form and then hit submit.</p>
+    <label for="name">Name:</label><br>
+    <input type="text" name="name" value="" ng-model="madData.name"><br>
+    <label for="nounOne">Noun:</label><br>
+    <input type="text" name="nounOne" value="" ng-model="madData.nounOne"><br>
+    <label for="nounTwo">Noun:</label><br>
+    <input type="text" name="nounTwo" value="" ng-model="madData.nounTwo"><br>
+    <label for="nounThree">Noun:</label><br>
+    <input type="text" name="nounThree" value="" ng-model="madData.nounThree"><br>
+    <label for="number">Number:</label><br>
+    <input type="number" name="number" value="" ng-model="madData.numberOne"><br>
+    <label for="color">Color:</label><br>
+    <input type="text" name="colorOne" value="" ng-model="madData.colorOne"><br>
+    <label for="weapon">Noun:</label><br>
+    <input type="text" name="noun" value="" ng-model="madData.weapon"><br>
+    <label for="noun">Noun:</label><br>
+    <input type="text" name="noun" value="" ng-model="madData.nounFour"><br>
+    <label for="adjective">Adverb:</label><br>
+    <input type="text" name="adverb" value="" ng-model="madData.adverb"><br>
+    <label for="verb">Verb:</label><br>
+    <input type="text" name="verb" value="" ng-model="madData.verb"><br>
+
+    <button type="button" name="button" ng-click="receiveInfo(madData)">Submit</button>
+  </form>
+</div>

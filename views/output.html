@@ -1,0 +1,37 @@
+<div class="outputContainer">
+  <section id="storySection">
+
+    <h1 id="storyTitle">A Vi's Story</h1>
+
+    <h2 class="madSentence">This story starts with a Vi named {{info.name}}.</h2>
+
+    <h2 class="madSentence">{{info.name}} was alone in a dark tunnel. The further {{info.name}} walked, the darker it got. </h2>
+
+    <h2 class="madSentence">{{info.name}} carried a pack and in this pack were a {{info.nounOne}}, a {{info.nounTwo}}, and a {{ info.nounThree}}</h2>
+
+    <h2 class="madSentence">{{info.name}} continued on for a while until a monster with {{info.numberOne}} eyes, a {{info.colorOne}} body and a {{info.weapon}} fell from the ceiling.</h2>
+
+    <h2 class="madSentence">The monster's {{info.numberOne}} eyes rolled in its head and laughed maniacally. "I smell a Vi in the tunnels hehehe!  ""</h2>
+
+    <h2 class="madSentence">The monster walks towards {{info.name}}. "I will eat this Vi in one, two, th..."</h2>
+
+    <h2 class="madSentence">Suddenly, {{info.name}} grabbed the {{info.weapon}} and pushed the monster back. </h2>
+
+    <h2 class="madSentence">The {{info.colorOne}} monster chuckled and with a flick of its wrist the {{info.weapon}} transformed into a {{info.nounFour}} and {{info.adverb}} {{info.verb}} away! </h2>
+
+    <h2 class="madSentence">The monster smiles with an evil grin... </h2>
+
+    <h2 class="madSentence">To Be Continued...</h2>
+
+    <h2 id="credits">Credits:<h2>
+
+      <div class="credits" ng-init="storyStaff=['Story by Spencer', 'Lack of Sound by Spencer', 'Lack of Animation by Spencer']">
+        <ul id="creditList">
+          <li ng-repeat="staff in storyStaff">{{staff}}</li>
+        </ul>
+      </div>
+
+
+
+  </section>
+</div>
