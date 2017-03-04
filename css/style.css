@@ -16,8 +16,10 @@ div.inputContainer, div.outputContainer {
 
 /* Input Page Styling */
 form {
+  background-color: #443266;
   border: 1px solid white;
   border-radius: 5px;
+  color: white;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -61,7 +63,7 @@ img#viImage {
 section#storySection {
   border: 2px solid purple;
   border-radius: 5px;
-  background: #d09cd9;
+  background: #F1F0FF;
   margin-top: 5%;
   margin-left: 5%;
   margin-right: auto;
